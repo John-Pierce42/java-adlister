@@ -14,6 +14,9 @@
 <body>
 
 
+
+<h1>Welcome to the web site please log in.</h1>
+
 <%
     if(request.getMethod().equals("POST")) {
 
