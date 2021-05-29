@@ -8,11 +8,19 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Outcome!</title>
+    <title>Title</title>
 </head>
 <body>
+<h1>Guess a a number between 1 and 3.</h1>
 
-<h1>"You ${userguess}</h1>
+<form method="POST" action="/guess">
+
+    <label for="guessNumber">Guess Your Number 1 to 3</label>
+    <input id="guessNumber" name="guess" type="text">
+    <br>
+
+    <input type="submit">
+</form>
 
 </body>
 </html>

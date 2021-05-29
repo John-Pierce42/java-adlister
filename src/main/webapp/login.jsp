@@ -27,13 +27,14 @@
 
             response.sendRedirect("profile.jsp");
         } else {
-            response.sendRedirect("login.jsp");
+//            response.sendRedirect("login.jsp");
+            request.setAttribute("message", "Wrong User Name and Password.");
         }
 
     }
 %>
-
-
+<h1>Please Log In</h1>
+<h2>${message}</h2>
 <form method="POST" action="/login.jsp">
 
     <label for="username">Username</label>
@@ -44,7 +45,7 @@
     <input id="password" name="password" type="password">
     <br>
 
-    <input type="submit">
+    <input type="submit" value="Log In">
 </form>
 
 <%--<c:choose>--%>
