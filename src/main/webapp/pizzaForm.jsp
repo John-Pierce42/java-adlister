@@ -15,7 +15,7 @@
 <h1> Welcome to Pizza Place!</h1>
 
 <div>
-    <form method="POST" action="pizzaForm">
+    <form method="POST" action="pizza-order">
         <h2>Select your Crust type.</h2>
         <input  type="radio" name="crust_type" value="Pan">Pan<br>
         <input  type="radio" name="crust_type" value="Thin">Thin<br>
@@ -40,6 +40,7 @@
         <input type="text" name="address" placeholder="Address">
 
         <input type="submit" value="Place your Order">
+
     </form>
 </div>
 

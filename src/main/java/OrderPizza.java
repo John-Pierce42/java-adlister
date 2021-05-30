@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "Order Pizza", urlPatterns ="/pizzaForm")
+@WebServlet(name = "Order Pizza", urlPatterns ="/pizza-order")
 public class OrderPizza extends HttpServlet {
 
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

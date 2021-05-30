@@ -8,9 +8,18 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Color Form</title>
 </head>
 <body>
+
+<h1>Enter your Favorite color.</h1>
+
+<div>
+    <form method="POST" action="viewcolor">
+        <input type="text" name="color" placeholder="enter your color here">
+        <input type="submit" value="enter color">
+    </form>
+</div>
 
 </body>
 </html>

@@ -8,9 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Users Favorite color</title>
+    <style>
+        body {
+            background-color: ${userColor};
+        }
+    </style>
 </head>
 <body>
+<h1>Here's your favorite color!</h1>
 
 </body>
 </html>
