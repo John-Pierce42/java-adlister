@@ -12,7 +12,6 @@ public class OrderPizza extends HttpServlet {
 
       request.getRequestDispatcher("/pizzaForm.jsp").forward(request, response);
 
-
   }
 
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -22,12 +21,12 @@ public class OrderPizza extends HttpServlet {
         String toppings = request.getParameter("toppings");
         String size = request.getParameter("size");
         String address = request.getParameter("address");
-
-        System.out.println(request.getParameter(crust));
-        System.out.println(request.getParameter(sauce));
-        System.out.println(request.getParameter(toppings));
-        System.out.println(request.getParameter(size));
-        System.out.println(request.getParameter(address));
+//
+        System.out.println(crust);
+        System.out.println(sauce);
+        System.out.println(toppings);
+        System.out.println(size);
+        System.out.println(address);
 
     }
 

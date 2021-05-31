@@ -27,9 +27,9 @@
         <input  type="radio" name="sauce_type" value="Pesto">Pesto<br>
 
         <h2>Toppings.</h2>
-        <input  type="checkbox" name="toppings" value="Marinara">Peperoni<br>
-        <input  type="checkbox" name="toppings" value="Buffalo">Jalapenos<br>
-        <input  type="checkbox" name="toppings" value="Pesto">Cheese<br>
+        <input  type="checkbox" name="toppings" value="Peperoni">Peperoni<br>
+        <input  type="checkbox" name="toppings" value="Jalapenos">Jalapenos<br>
+        <input  type="checkbox" name="toppings" value="Cheese">Cheese<br>
 
         <h2>Select Size.</h2>
         <input  type="radio" name="size" value="Small">Small<br>
