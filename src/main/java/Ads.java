@@ -1,5 +1,5 @@
 import java.util.List;
 
-public interface Ads {
+interface Ads {
     List<Ad> all();
 }

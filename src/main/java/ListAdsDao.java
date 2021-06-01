@@ -38,5 +38,10 @@ public class ListAdsDao implements Ads {
             "Must have strong Java skills"
         ));
         return ads;
+
+
+        }
+
     }
-}
+
+
